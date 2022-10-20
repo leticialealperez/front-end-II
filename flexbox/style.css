@@ -1,0 +1,28 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main {
+            height: 100vh;
+            width: 100vw;
+            background-color: #aaa;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        div {
+           height: 200px;
+           width: 200px;
+           border-radius: 100%; 
+           border: 1px solid black;
+        }
+
+        .amarela{
+            background-color: yellow;
+        }
+
+        .azul {
+            background-color: blue;
+        }
