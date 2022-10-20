@@ -1,0 +1,36 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    main {
+        height: 50vh;
+        width: 100vw;
+        background-color: #aaa;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    header {
+        height: 50vh;
+        display: flex;
+        background-color: #aaa;
+        justify-content: flex-end;
+    }
+
+    div {
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+    }
+
+    .amarela{
+        border-radius: 100%; 
+        background-color: yellow;
+        align-self: flex-start;
+    }
+
+    .azul {
+        background-color: blue;
+    }
