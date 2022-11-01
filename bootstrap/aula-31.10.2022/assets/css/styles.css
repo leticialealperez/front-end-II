@@ -1,0 +1,30 @@
+.form-control {
+    background-color: #3a3a3a !important;
+    color: #ffff !important;
+    border: none !important;
+}
+
+.form-check-input {
+    background-color: #3a3a3a !important;
+}
+
+.form-control:focus{
+   box-shadow: 0 0 0 0.20rem rgba(167, 93, 180, 0.625) !important;
+}
+
+.form-check-input:checked, .form-check-input:focus{
+    box-shadow: 0 0 0 0.20rem rgba(167, 93, 180, 0.625) !important;
+    border: none !important;
+}
+
+.custom-btn{
+    background-color: rgb(130, 73, 140) !important;
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.input-group-text {
+    border: none !important;
+    color: #ffff !important;
+    background-color: #3a3a3a !important;
+}
